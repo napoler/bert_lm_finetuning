@@ -40,6 +40,12 @@ python3 simple_lm_finetuning.py
 --do_train
 ```
 
+### 准确率
+
+```
+python3 eval_simple_lm_finetuning.py --num_train_epochs 3 --train_batch_size 1 --train_corpus data/corpus_mini.txt --bert_model tkitfiles/bertNext/  --do_lower_case --output_dir finetuned_lm/ --do_train
+```
+
 ### Pregenerating training data
 
 ```
